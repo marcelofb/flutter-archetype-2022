@@ -19,9 +19,14 @@ class AppRoutes {
         icon: Icons.list_alt),
     MenuOption(
         route: 'card',
-        name: 'Card',
+        name: 'Cards',
         screen: const CardScreen(),
         icon: Icons.credit_card),
+    MenuOption(
+        route: 'alert',
+        name: 'Alerts',
+        screen: const AlertScreen(),
+        icon: Icons.add_alert),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
