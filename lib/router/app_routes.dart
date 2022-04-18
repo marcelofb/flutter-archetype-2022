@@ -27,6 +27,11 @@ class AppRoutes {
         name: 'Alerts',
         screen: const AlertScreen(),
         icon: Icons.add_alert),
+    MenuOption(
+        route: 'avatar',
+        name: 'Circle Avatar',
+        screen: const AvatarScreen(),
+        icon: Icons.supervised_user_circle),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
