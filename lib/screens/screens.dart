@@ -4,3 +4,4 @@ export 'package:archetype_2022/screens/home_screen.dart';
 export 'package:archetype_2022/screens/card_screen.dart';
 export 'package:archetype_2022/screens/alert_screen.dart';
 export 'package:archetype_2022/screens/avatar_screen.dart';
+export 'package:archetype_2022/screens/animated_screen.dart';
