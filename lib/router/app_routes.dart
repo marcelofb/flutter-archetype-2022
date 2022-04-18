@@ -17,6 +17,11 @@ class AppRoutes {
         name: 'Listview lazy (builder, separated)',
         screen: const Listview2Screen(),
         icon: Icons.list_alt),
+    MenuOption(
+        route: 'card',
+        name: 'Card',
+        screen: const CardScreen(),
+        icon: Icons.credit_card),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
